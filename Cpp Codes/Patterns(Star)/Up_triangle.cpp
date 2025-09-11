@@ -6,11 +6,11 @@ int main() {
 
     for (int i = 1; i <= n; i++) {
         // spaces
-        for (int s = 0; s < n - i; s++) {
+        for (int j = 0; j < n - i; j++) {
             cout << " ";
         }
         // stars
-        for (int j = 1; j <= 2 * i - 1; j++) {
+        for (int k = 1; k <= 2 * i - 1; k++) {
             cout << "*";
         }
         cout << endl;
@@ -18,3 +18,9 @@ int main() {
 
     return 0;
 }
+
+//Output
+//    *
+//   ***
+//  *****
+// *******
